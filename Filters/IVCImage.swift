@@ -1,16 +1,10 @@
-//
-//  CircleImage.swift
-//  Filters
-//
-//  Created by Ramirez Paul E on 5/3/20.
-//  Copyright © 2020 Ramirez Paul E. All rights reserved.
-//
-
 import SwiftUI
 
 struct IVCImage: View {
+    var image: Image
+    
     var body: some View {
-        Image("ALN")
+        image
             .resizable()
             .aspectRatio(contentMode: .fit)        
     }
@@ -18,6 +12,6 @@ struct IVCImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        IVCImage()
+        IVCImage(image: Image("ALN"))
     }
 }

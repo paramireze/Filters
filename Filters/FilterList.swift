@@ -4,7 +4,7 @@ struct FilterList: View {
     var body: some View {
             NavigationView {
             List(filterData) { filter in
-                NavigationLink(destination:FilterDetails()) {
+                NavigationLink(destination:FilterDetails(filter: filter)) {
                     FilterRow(filter: filter)
                 }
             }
