@@ -7,9 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1041A11B246713AC0046681D /* FilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11A246713AC0046681D /* FilterRow.swift */; };
+		1041A11D246713C20046681D /* FilterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11C246713C20046681D /* FilterList.swift */; };
+		1041A120246715E40046681D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11F246715E40046681D /* Filter.swift */; };
+		1041A122246717870046681D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A121246717870046681D /* Data.swift */; };
+		1041A136246719880046681D /* CookGuntherTulip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A124246719870046681D /* CookGuntherTulip.jpg */; };
+		1041A137246719880046681D /* CookBirdsNest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A125246719870046681D /* CookBirdsNest.jpg */; };
+		1041A138246719880046681D /* CordisOptease.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A126246719870046681D /* CordisOptease.jpg */; };
+		1041A139246719880046681D /* RafaelSafeFlo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A127246719870046681D /* RafaelSafeFlo.jpg */; };
+		1041A13A246719880046681D /* CordisTrapease.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A128246719870046681D /* CordisTrapease.jpg */; };
+		1041A13B246719880046681D /* VolcanoCrux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A129246719880046681D /* VolcanoCrux.jpg */; };
+		1041A13C246719880046681D /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A12A246719880046681D /* Logo.jpg */; };
+		1041A13D246719880046681D /* BostonScientificTitaniumGreenfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A12B246719880046681D /* BostonScientificTitaniumGreenfield.jpg */; };
+		1041A13E246719880046681D /* CookCelectPlatinum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A12C246719880046681D /* CookCelectPlatinum.jpg */; };
+		1041A13F246719880046681D /* Complications4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1041A12D246719880046681D /* Complications4.png */; };
+		1041A140246719880046681D /* CookCelect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A12E246719880046681D /* CookCelect.jpg */; };
+		1041A141246719880046681D /* VolcanoCrux2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A12F246719880046681D /* VolcanoCrux2.jpg */; };
+		1041A142246719880046681D /* Complications6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1041A130246719880046681D /* Complications6.png */; };
+		1041A143246719880046681D /* Complications2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1041A131246719880046681D /* Complications2.png */; };
+		1041A144246719880046681D /* RexMedicalOption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A132246719880046681D /* RexMedicalOption.jpg */; };
+		1041A145246719880046681D /* Complications5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1041A133246719880046681D /* Complications5.png */; };
+		1041A146246719880046681D /* Complications1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1041A134246719880046681D /* Complications1.png */; };
+		1041A147246719880046681D /* Complications3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1041A135246719880046681D /* Complications3.png */; };
+		1041A150246719960046681D /* BardMeridian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A148246719960046681D /* BardMeridian.jpg */; };
+		1041A151246719960046681D /* BostonScientific24FrStainlessGreenfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A149246719960046681D /* BostonScientific24FrStainlessGreenfield.jpg */; };
+		1041A152246719960046681D /* BBraunVenaTechLP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A14A246719960046681D /* BBraunVenaTechLP.jpg */; };
+		1041A153246719960046681D /* BardG2X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A14B246719960046681D /* BardG2X.jpg */; };
+		1041A154246719960046681D /* BBraunVenaTechLGM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A14C246719960046681D /* BBraunVenaTechLGM.jpg */; };
+		1041A155246719960046681D /* BardRecovery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A14D246719960046681D /* BardRecovery.jpg */; };
+		1041A156246719960046681D /* BardSimonNitinol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A14E246719960046681D /* BardSimonNitinol.jpg */; };
+		1041A157246719960046681D /* BostonScientific12FrStainlessGreenfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A14F246719960046681D /* BostonScientific12FrStainlessGreenfield.jpg */; };
+		1041A15C246719A30046681D /* ALN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A158246719A30046681D /* ALN.jpg */; };
+		1041A15D246719A30046681D /* BardG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A159246719A30046681D /* BardG2.jpg */; };
+		1041A15E246719A30046681D /* BardDenali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A15A246719A30046681D /* BardDenali.jpg */; };
+		1041A15F246719A30046681D /* BardEclipse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1041A15B246719A30046681D /* BardEclipse.jpg */; };
+		1041A16124671A180046681D /* filterData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1041A16024671A180046681D /* filterData.json */; };
 		1052EE98245A62390025DE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052EE97245A62390025DE2F /* AppDelegate.swift */; };
 		1052EE9A245A62390025DE2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052EE99245A62390025DE2F /* SceneDelegate.swift */; };
-		1052EE9C245A62390025DE2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052EE9B245A62390025DE2F /* ContentView.swift */; };
+		1052EE9C245A62390025DE2F /* FilterDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052EE9B245A62390025DE2F /* FilterDetails.swift */; };
 		1052EE9E245A62410025DE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052EE9D245A62410025DE2F /* Assets.xcassets */; };
 		1052EEA1245A62410025DE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052EEA0245A62410025DE2F /* Preview Assets.xcassets */; };
 		1052EEA4245A62410025DE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1052EEA2245A62410025DE2F /* LaunchScreen.storyboard */; };
@@ -17,10 +52,45 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1041A11A246713AC0046681D /* FilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRow.swift; sourceTree = "<group>"; };
+		1041A11C246713C20046681D /* FilterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterList.swift; sourceTree = "<group>"; };
+		1041A11F246715E40046681D /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		1041A121246717870046681D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1041A124246719870046681D /* CookGuntherTulip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CookGuntherTulip.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/CookGuntherTulip.jpg"; sourceTree = "<group>"; };
+		1041A125246719870046681D /* CookBirdsNest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CookBirdsNest.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/CookBirdsNest.jpg"; sourceTree = "<group>"; };
+		1041A126246719870046681D /* CordisOptease.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CordisOptease.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/CordisOptease.jpg"; sourceTree = "<group>"; };
+		1041A127246719870046681D /* RafaelSafeFlo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RafaelSafeFlo.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/RafaelSafeFlo.jpg"; sourceTree = "<group>"; };
+		1041A128246719870046681D /* CordisTrapease.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CordisTrapease.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/CordisTrapease.jpg"; sourceTree = "<group>"; };
+		1041A129246719880046681D /* VolcanoCrux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VolcanoCrux.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/VolcanoCrux.jpg"; sourceTree = "<group>"; };
+		1041A12A246719880046681D /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Logo.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/Logo.jpg"; sourceTree = "<group>"; };
+		1041A12B246719880046681D /* BostonScientificTitaniumGreenfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BostonScientificTitaniumGreenfield.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/BostonScientificTitaniumGreenfield.jpg"; sourceTree = "<group>"; };
+		1041A12C246719880046681D /* CookCelectPlatinum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CookCelectPlatinum.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/CookCelectPlatinum.jpg"; sourceTree = "<group>"; };
+		1041A12D246719880046681D /* Complications4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Complications4.png; path = "../../../Downloads/drive-download-20200509T151942Z-001/Complications4.png"; sourceTree = "<group>"; };
+		1041A12E246719880046681D /* CookCelect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CookCelect.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/CookCelect.jpg"; sourceTree = "<group>"; };
+		1041A12F246719880046681D /* VolcanoCrux2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = VolcanoCrux2.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/VolcanoCrux2.jpg"; sourceTree = "<group>"; };
+		1041A130246719880046681D /* Complications6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Complications6.png; path = "../../../Downloads/drive-download-20200509T151942Z-001/Complications6.png"; sourceTree = "<group>"; };
+		1041A131246719880046681D /* Complications2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Complications2.png; path = "../../../Downloads/drive-download-20200509T151942Z-001/Complications2.png"; sourceTree = "<group>"; };
+		1041A132246719880046681D /* RexMedicalOption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RexMedicalOption.jpg; path = "../../../Downloads/drive-download-20200509T151942Z-001/RexMedicalOption.jpg"; sourceTree = "<group>"; };
+		1041A133246719880046681D /* Complications5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Complications5.png; path = "../../../Downloads/drive-download-20200509T151942Z-001/Complications5.png"; sourceTree = "<group>"; };
+		1041A134246719880046681D /* Complications1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Complications1.png; path = "../../../Downloads/drive-download-20200509T151942Z-001/Complications1.png"; sourceTree = "<group>"; };
+		1041A135246719880046681D /* Complications3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Complications3.png; path = "../../../Downloads/drive-download-20200509T151942Z-001/Complications3.png"; sourceTree = "<group>"; };
+		1041A148246719960046681D /* BardMeridian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardMeridian.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BardMeridian.jpg"; sourceTree = "<group>"; };
+		1041A149246719960046681D /* BostonScientific24FrStainlessGreenfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BostonScientific24FrStainlessGreenfield.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BostonScientific24FrStainlessGreenfield.jpg"; sourceTree = "<group>"; };
+		1041A14A246719960046681D /* BBraunVenaTechLP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BBraunVenaTechLP.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BBraunVenaTechLP.jpg"; sourceTree = "<group>"; };
+		1041A14B246719960046681D /* BardG2X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardG2X.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BardG2X.jpg"; sourceTree = "<group>"; };
+		1041A14C246719960046681D /* BBraunVenaTechLGM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BBraunVenaTechLGM.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BBraunVenaTechLGM.jpg"; sourceTree = "<group>"; };
+		1041A14D246719960046681D /* BardRecovery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardRecovery.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BardRecovery.jpg"; sourceTree = "<group>"; };
+		1041A14E246719960046681D /* BardSimonNitinol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardSimonNitinol.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BardSimonNitinol.jpg"; sourceTree = "<group>"; };
+		1041A14F246719960046681D /* BostonScientific12FrStainlessGreenfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BostonScientific12FrStainlessGreenfield.jpg; path = "../../../Downloads/drive-download-20200509T151918Z-001/BostonScientific12FrStainlessGreenfield.jpg"; sourceTree = "<group>"; };
+		1041A158246719A30046681D /* ALN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ALN.jpg; path = ../../../Downloads/ALN.jpg; sourceTree = "<group>"; };
+		1041A159246719A30046681D /* BardG2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardG2.jpg; path = ../../../Downloads/BardG2.jpg; sourceTree = "<group>"; };
+		1041A15A246719A30046681D /* BardDenali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardDenali.jpg; path = ../../../Downloads/BardDenali.jpg; sourceTree = "<group>"; };
+		1041A15B246719A30046681D /* BardEclipse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BardEclipse.jpg; path = ../../../Downloads/BardEclipse.jpg; sourceTree = "<group>"; };
+		1041A16024671A180046681D /* filterData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = filterData.json; sourceTree = "<group>"; };
 		1052EE94245A62390025DE2F /* Filters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1052EE97245A62390025DE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1052EE99245A62390025DE2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1052EE9B245A62390025DE2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1052EE9B245A62390025DE2F /* FilterDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDetails.swift; sourceTree = "<group>"; };
 		1052EE9D245A62410025DE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1052EEA0245A62410025DE2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1052EEA3245A62410025DE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,9 +109,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1041A11E246715770046681D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1041A11F246715E40046681D /* Filter.swift */,
+				1041A121246717870046681D /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1041A1232467192C0046681D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1041A158246719A30046681D /* ALN.jpg */,
+				1041A15A246719A30046681D /* BardDenali.jpg */,
+				1041A15B246719A30046681D /* BardEclipse.jpg */,
+				1041A159246719A30046681D /* BardG2.jpg */,
+				1041A14B246719960046681D /* BardG2X.jpg */,
+				1041A148246719960046681D /* BardMeridian.jpg */,
+				1041A14D246719960046681D /* BardRecovery.jpg */,
+				1041A14E246719960046681D /* BardSimonNitinol.jpg */,
+				1041A14C246719960046681D /* BBraunVenaTechLGM.jpg */,
+				1041A14A246719960046681D /* BBraunVenaTechLP.jpg */,
+				1041A14F246719960046681D /* BostonScientific12FrStainlessGreenfield.jpg */,
+				1041A149246719960046681D /* BostonScientific24FrStainlessGreenfield.jpg */,
+				1041A12B246719880046681D /* BostonScientificTitaniumGreenfield.jpg */,
+				1041A134246719880046681D /* Complications1.png */,
+				1041A131246719880046681D /* Complications2.png */,
+				1041A135246719880046681D /* Complications3.png */,
+				1041A12D246719880046681D /* Complications4.png */,
+				1041A133246719880046681D /* Complications5.png */,
+				1041A130246719880046681D /* Complications6.png */,
+				1041A125246719870046681D /* CookBirdsNest.jpg */,
+				1041A12E246719880046681D /* CookCelect.jpg */,
+				1041A12C246719880046681D /* CookCelectPlatinum.jpg */,
+				1041A124246719870046681D /* CookGuntherTulip.jpg */,
+				1041A126246719870046681D /* CordisOptease.jpg */,
+				1041A128246719870046681D /* CordisTrapease.jpg */,
+				1041A12A246719880046681D /* Logo.jpg */,
+				1041A127246719870046681D /* RafaelSafeFlo.jpg */,
+				1041A132246719880046681D /* RexMedicalOption.jpg */,
+				1041A129246719880046681D /* VolcanoCrux.jpg */,
+				1041A12F246719880046681D /* VolcanoCrux2.jpg */,
+				1041A16024671A180046681D /* filterData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1052EE8B245A62390025DE2F = {
 			isa = PBXGroup;
 			children = (
+				1041A1232467192C0046681D /* Resources */,
+				1041A11E246715770046681D /* Models */,
 				1052EE96245A62390025DE2F /* Filters */,
 				1052EE95245A62390025DE2F /* Products */,
 			);
@@ -58,9 +177,11 @@
 		1052EE96245A62390025DE2F /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				1052EE9B245A62390025DE2F /* FilterDetails.swift */,
+				1041A11A246713AC0046681D /* FilterRow.swift */,
+				1041A11C246713C20046681D /* FilterList.swift */,
 				1052EE97245A62390025DE2F /* AppDelegate.swift */,
 				1052EE99245A62390025DE2F /* SceneDelegate.swift */,
-				1052EE9B245A62390025DE2F /* ContentView.swift */,
 				1052EE9D245A62410025DE2F /* Assets.xcassets */,
 				10A52CF8245F13FD0071E84D /* IVCImage.swift */,
 				1052EEA2245A62410025DE2F /* LaunchScreen.storyboard */,
@@ -136,9 +257,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1041A157246719960046681D /* BostonScientific12FrStainlessGreenfield.jpg in Resources */,
+				1041A142246719880046681D /* Complications6.png in Resources */,
+				1041A15D246719A30046681D /* BardG2.jpg in Resources */,
+				1041A15F246719A30046681D /* BardEclipse.jpg in Resources */,
+				1041A15E246719A30046681D /* BardDenali.jpg in Resources */,
 				1052EEA4245A62410025DE2F /* LaunchScreen.storyboard in Resources */,
+				1041A147246719880046681D /* Complications3.png in Resources */,
 				1052EEA1245A62410025DE2F /* Preview Assets.xcassets in Resources */,
+				1041A155246719960046681D /* BardRecovery.jpg in Resources */,
+				1041A145246719880046681D /* Complications5.png in Resources */,
+				1041A13C246719880046681D /* Logo.jpg in Resources */,
+				1041A156246719960046681D /* BardSimonNitinol.jpg in Resources */,
+				1041A13F246719880046681D /* Complications4.png in Resources */,
+				1041A150246719960046681D /* BardMeridian.jpg in Resources */,
+				1041A143246719880046681D /* Complications2.png in Resources */,
+				1041A146246719880046681D /* Complications1.png in Resources */,
+				1041A13A246719880046681D /* CordisTrapease.jpg in Resources */,
+				1041A153246719960046681D /* BardG2X.jpg in Resources */,
+				1041A13B246719880046681D /* VolcanoCrux.jpg in Resources */,
+				1041A16124671A180046681D /* filterData.json in Resources */,
+				1041A139246719880046681D /* RafaelSafeFlo.jpg in Resources */,
+				1041A13D246719880046681D /* BostonScientificTitaniumGreenfield.jpg in Resources */,
+				1041A13E246719880046681D /* CookCelectPlatinum.jpg in Resources */,
+				1041A152246719960046681D /* BBraunVenaTechLP.jpg in Resources */,
+				1041A136246719880046681D /* CookGuntherTulip.jpg in Resources */,
+				1041A15C246719A30046681D /* ALN.jpg in Resources */,
+				1041A144246719880046681D /* RexMedicalOption.jpg in Resources */,
 				1052EE9E245A62410025DE2F /* Assets.xcassets in Resources */,
+				1041A154246719960046681D /* BBraunVenaTechLGM.jpg in Resources */,
+				1041A137246719880046681D /* CookBirdsNest.jpg in Resources */,
+				1041A138246719880046681D /* CordisOptease.jpg in Resources */,
+				1041A140246719880046681D /* CookCelect.jpg in Resources */,
+				1041A151246719960046681D /* BostonScientific24FrStainlessGreenfield.jpg in Resources */,
+				1041A141246719880046681D /* VolcanoCrux2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,10 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1041A120246715E40046681D /* Filter.swift in Sources */,
+				1041A11B246713AC0046681D /* FilterRow.swift in Sources */,
 				1052EE98245A62390025DE2F /* AppDelegate.swift in Sources */,
 				10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */,
 				1052EE9A245A62390025DE2F /* SceneDelegate.swift in Sources */,
-				1052EE9C245A62390025DE2F /* ContentView.swift in Sources */,
+				1052EE9C245A62390025DE2F /* FilterDetails.swift in Sources */,
+				1041A11D246713C20046681D /* FilterList.swift in Sources */,
+				1041A122246717870046681D /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

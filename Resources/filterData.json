@@ -1,0 +1,11 @@
+[
+    {
+        "name": "ALN Filter",
+        "id": 1,
+        "imageName": "ALN"
+    }, {
+        "name": "Bard Denali",
+        "id": 2,
+        "imageName": "BardDenali"
+    }
+]
