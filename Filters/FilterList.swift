@@ -1,15 +1,25 @@
 import SwiftUI
 
 struct FilterList: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
-            NavigationView {
-            List(filterData) { filter in
-                NavigationLink(destination:FilterDetails(filter: filter)) {
-                    FilterRow(filter: filter)
-                }
+        NavigationView {
+        List(filterData) { filter in
+            NavigationLink(destination:FilterDetails(filter: filter)) {
+                FilterRow(filter: filter)
             }
-            .navigationBarTitle(Text("IVC Filters"))
         }
+        .navigationBarTitle(Text("IVC Filters"))
+            TabView {
+               Text("The content of the first view")
+                 .tabItem {
+                    Image(systemName: "phone.fill")
+                    Text("First Tab")
+                  }
+            }
+        }
+        
     }
 }
 

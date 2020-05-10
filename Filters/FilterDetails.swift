@@ -19,7 +19,7 @@ struct FilterDetails: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FilterDetails_Previews: PreviewProvider {
     static var previews: some View {
         FilterDetails(filter: filterData[0])
     }
