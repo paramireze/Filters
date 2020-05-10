@@ -10,6 +10,13 @@ struct ContentView: View {
                     
                 }
             }
+            GeneralList()
+            .tabItem {
+                VStack {
+                    Text("General")
+                    
+                }
+            }
         }
     }
 }
