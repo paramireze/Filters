@@ -7,13 +7,19 @@ struct ContentView: View {
             .tabItem {
                 VStack {
                     Text("IVC List")
-                    
                 }
             }
             GeneralList()
             .tabItem {
                 VStack {
                     Text("General")
+                    
+                }
+            }
+            InfoList()
+            .tabItem {
+                VStack {
+                    Text("Info")
                     
                 }
             }

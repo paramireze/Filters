@@ -21,7 +21,6 @@ struct GeneralList: View {
         NavigationView {
             List {
                 FilterAlertRow()
-                
             }
         }
     }
