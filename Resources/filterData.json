@@ -2,10 +2,12 @@
     {
         "name": "ALN Filter",
         "id": 1,
-        "imageName": "ALN"
+        "imageName": "ALN",
+        "isFavorite": false
     }, {
         "name": "Bard Denali",
         "id": 2,
-        "imageName": "BardDenali"
+        "imageName": "BardDenali",
+        "isFavorite": false
     }
 ]

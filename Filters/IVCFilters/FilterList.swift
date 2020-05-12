@@ -1,13 +1,24 @@
 import SwiftUI
 
 struct FilterList: View {
-    @Environment(\.colorScheme) var colorScheme
+    @EnvironmentObject private var userData: UserData
     
     var body: some View {
         NavigationView {
-            List(filterData) { filter in
-                NavigationLink(destination:FilterDetails(filter: filter)) {
-                    FilterRow(filter: filter)
+            List {
+                Toggle(isOn: $userData.showFavoritesOnly) {
+                    Text("Show Favorites Only")
+                }
+                
+                ForEach(userData.filters) { filter in
+                    if !self.userData.showFavoritesOnly || filter.isFavorite {
+                        NavigationLink(
+                            destination: FilterDetails(filter: filter)
+                                .environmentObject(self.userData)
+                        ) {
+                            FilterRow(filter: filter)
+                        }
+                    }
                 }
             }
             .navigationBarTitle(Text("IVC Filters"))
@@ -22,5 +33,6 @@ struct FilterList_Previews: PreviewProvider {
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }
+        .environmentObject(UserData())
     }
 }

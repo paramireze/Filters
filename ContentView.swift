@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            FilterList()
+            FilterList().environmentObject(UserData())
             .tabItem {
                 VStack {
                     Text("IVC List")
@@ -13,14 +13,12 @@ struct ContentView: View {
             .tabItem {
                 VStack {
                     Text("General")
-                    
                 }
             }
             InfoList()
             .tabItem {
                 VStack {
                     Text("Info")
-                    
                 }
             }
         }

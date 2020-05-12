@@ -10,7 +10,14 @@ struct FilterRow: View {
                 .resizable()
                 .frame(width:34, height:53)
             Text(filter.name)
+            
             Spacer()
+            
+            if filter.isFavorite {
+                Image(systemName: "star.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -21,7 +28,6 @@ struct FilterRow_Previews: PreviewProvider {
             FilterRow(filter: filterData[0])
 
             FilterRow(filter: filterData[1])
-
         }
         .previewLayout(.fixed(width: 300, height: 60))
     }
