@@ -9,6 +9,12 @@ struct ContentView: View {
                     Text("IVC List")
                 }
             }
+            CategoryHome().environmentObject(UserData())
+            .tabItem {
+                VStack {
+                    Text("IVC Images")
+                }
+            }
             GeneralList()
             .tabItem {
                 VStack {

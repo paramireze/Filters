@@ -55,6 +55,8 @@
 		1052EE9E245A62410025DE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052EE9D245A62410025DE2F /* Assets.xcassets */; };
 		1052EEA1245A62410025DE2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052EEA0245A62410025DE2F /* Preview Assets.xcassets */; };
 		1052EEA4245A62410025DE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1052EEA2245A62410025DE2F /* LaunchScreen.storyboard */; };
+		106F3EA5246F0746005D854F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3EA4246F0746005D854F /* Home.swift */; };
+		106F3EA7246F0B48005D854F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3EA6246F0B48005D854F /* CategoryRow.swift */; };
 		10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A52CF8245F13FD0071E84D /* IVCImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +111,8 @@
 		1052EEA0245A62410025DE2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1052EEA3245A62410025DE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1052EEA5245A62410025DE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106F3EA4246F0746005D854F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		106F3EA6246F0B48005D854F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		10A52CF8245F13FD0071E84D /* IVCImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVCImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,10 +153,10 @@
 				1041A14F246719960046681D /* BostonScientific12FrStainlessGreenfield.jpg */,
 				1041A149246719960046681D /* BostonScientific24FrStainlessGreenfield.jpg */,
 				1041A12B246719880046681D /* BostonScientificTitaniumGreenfield.jpg */,
+				1041A12D246719880046681D /* Complications4.png */,
 				1041A134246719880046681D /* Complications1.png */,
 				1041A131246719880046681D /* Complications2.png */,
 				1041A135246719880046681D /* Complications3.png */,
-				1041A12D246719880046681D /* Complications4.png */,
 				1041A133246719880046681D /* Complications5.png */,
 				1041A130246719880046681D /* Complications6.png */,
 				1041A125246719870046681D /* CookBirdsNest.jpg */,
@@ -177,6 +181,8 @@
 				1052EE9B245A62390025DE2F /* FilterDetails.swift */,
 				1041A11A246713AC0046681D /* FilterRow.swift */,
 				1041A11C246713C20046681D /* FilterList.swift */,
+				106F3EA4246F0746005D854F /* Home.swift */,
+				106F3EA6246F0B48005D854F /* CategoryRow.swift */,
 			);
 			path = IVCFilters;
 			sourceTree = "<group>";
@@ -354,12 +360,14 @@
 				1041A16E246A1A720046681D /* About.swift in Sources */,
 				1041A170246A1ACE0046681D /* InfoList.swift in Sources */,
 				10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */,
+				106F3EA7246F0B48005D854F /* CategoryRow.swift in Sources */,
 				1052EE9A245A62390025DE2F /* SceneDelegate.swift in Sources */,
 				1041A163246861E90046681D /* ContentView.swift in Sources */,
 				1041A1692468A1280046681D /* GeneralList.swift in Sources */,
 				1052EE9C245A62390025DE2F /* FilterDetails.swift in Sources */,
 				1041A16C246A1A5B0046681D /* References.swift in Sources */,
 				1041A11D246713C20046681D /* FilterList.swift in Sources */,
+				106F3EA5246F0746005D854F /* Home.swift in Sources */,
 				1041A122246717870046681D /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
