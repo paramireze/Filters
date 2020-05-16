@@ -30,7 +30,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
                 
             }
-            .navigationBarTitle(Text("Featured"))
+            .navigationBarTitle(Text("IVC Filters"))
 
         }
     }
@@ -39,7 +39,7 @@ struct CategoryHome: View {
 struct FeaturedFilters: View {
     var filters: [Filter]
     var body: some View {
-        filters[0].image.resizable()
+        filters[18].image.resizable()
     }
 }
 
