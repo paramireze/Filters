@@ -9,7 +9,7 @@
         "category": "ALN"
     }, {
         "name": "Bard Denali",
-        "short": "Bard Denali",
+        "short": "Denali",
         "id": 2,
         "imageName": "BardDenali",
         "isFavorite": false,
@@ -17,7 +17,7 @@
         "category": "Bard"
     }, {
         "name": "Bard Eclipse",
-        "short": "Bard Eclipse",
+        "short": "Eclipse",
         "id": 3,
         "imageName": "BardEclipse",
         "isFavorite": false,
@@ -25,7 +25,7 @@
         "category": "Bard"
     }, {
         "name": "Bard G2",
-        "short": "Bard G2",
+        "short": "G2",
         "id": 4,
         "imageName": "BardG2",
         "isFavorite": false,
@@ -33,7 +33,7 @@
         "category": "Bard"
     }, {
         "name": "Bard G2X",
-        "short": "Bard G2X",
+        "short": "G2X",
         "id": 5,
         "imageName": "BardG2X",
         "isFavorite": false,
@@ -41,7 +41,7 @@
         "category": "Bard"
     }, {
         "name": "Bard Meridian",
-        "short": "Bard Meridian",
+        "short": "Meridian",
         "id": 6,
         "imageName": "BardMeridian",
         "isFavorite": false,
@@ -49,7 +49,7 @@
         "category": "Bard"
     }, {
         "name": "Bard Recovery",
-        "short": "Bard Recovery",
+        "short": "Recovery",
         "id": 7,
         "imageName": "BardRecovery",
         "isFavorite": false,
@@ -57,7 +57,7 @@
         "category": "Bard"
     }, {
         "name": "Bard Simon Nitinol",
-        "short": "Bard Simon Nitinol",
+        "short": "Simon Nitinol",
         "id": 8,
         "imageName": "BardSimonNitinol",
         "isFavorite": false,
@@ -65,20 +65,20 @@
         "category": "Bard"
     }, {
         "name": "B. Braun Bena Tech LGM",
-        "short": "B. Braun Bena Tech LGM",
+        "short": "Bena Tech LGM",
         "id": 9,
         "imageName": "BBraunVenaTechLGM",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Braun"
+        "category": "B. Braun"
     }, {
         "name": "B. Braun Vena Tech LP",
-        "short": "B. Braun Vena Tech LP",
+        "short": "Vena Tech LP",
         "id": 10,
         "imageName": "BBraunVenaTechLP",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Braun"
+        "category": "B. Braun"
     }, {
         "name": "Boston Scientific 12 Fr Stainless Greenfield",
         "short": "12 Fr Stainless Greenfield",
@@ -86,15 +86,15 @@
         "imageName": "BostonScientific12FrStainlessGreenfield",
         "isFavorite": false,
         "isFeatured": false,
-        "category": "Boston"
+        "category": "Boston Scientific"
     }, {
-        "name": "Boston Scientific 24 Fr Stainless Greenfiel",
+        "name": "24 Fr Stainless Greenfiel",
         "short": "24 Fr Stainless Greenfiel",
         "id": 12,
         "imageName": "BostonScientific24FrStainlessGreenfield",
         "isFavorite": false,
         "isFeatured": false,
-        "category": "Boston"
+        "category": "Boston Scientific"
     }, {
         "name": "Boston Scientific Titanium Greenfield",
         "short": "Titanium Greenfield",
@@ -102,10 +102,10 @@
         "imageName": "BostonScientificTitaniumGreenfield",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Boston"
+        "category": "Boston Scientific"
     }, {
         "name": "Cook Bird's Nest",
-        "short": "Cook Bird's Nest",
+        "short": "Bird's Nest",
         "id": 14,
         "imageName": "CookBirdsNest",
         "isFavorite": false,
@@ -113,7 +113,7 @@
         "category": "Cook"
     }, {
         "name": "Cook Celect",
-        "short": "Cook Celect",
+        "short": "Celect",
         "id": 15,
         "imageName": "CookCelect",
         "isFavorite": false,
@@ -121,7 +121,7 @@
         "category": "Cook"
     }, {
         "name": "Cook Gunther Tulip",
-        "short": "Cook Gunther Tulip",
+        "short": "Gunther Tulip",
         "id": 16,
         "imageName": "CookGuntherTulip",
         "isFavorite": false,
@@ -129,7 +129,7 @@
         "category": "Cook"
     }, {
         "name": "Cordis Optease",
-        "short": "Cordis Optease",
+        "short": "Optease",
         "id": 17,
         "imageName": "CordisOptease",
         "isFavorite": false,
@@ -137,7 +137,7 @@
         "category": "Cordis"
     }, {
         "name": "Cordis Trapease",
-        "short": "Cordis Trapease",
+        "short": "Trapease",
         "id": 18,
         "imageName": "CordisTrapease",
         "isFavorite": false,
@@ -145,7 +145,7 @@
         "category": "Cordis"
     }, {
         "name": "Rafael Safe Flo",
-        "short": "Rafael Safe Flo",
+        "short": "Safe Flo",
         "id": 19,
         "imageName": "RafaelSafeFlo",
         "isFavorite": false,
@@ -153,7 +153,7 @@
         "category": "Rafael"
     }, {
         "name": "Rex Medical Option",
-        "short": "Rex Medical Option",
+        "short": "Medical Option",
         "id": 20,
         "imageName": "RexMedicalOption",
         "isFavorite": false,
@@ -161,7 +161,7 @@
         "category": "Rex"
     }, {
         "name": "Volcano Crux",
-        "short": "Volcano Crux",
+        "short": "Crux",
         "id": 21,
         "imageName": "VolcanoCrux",
         "isFavorite": false,
