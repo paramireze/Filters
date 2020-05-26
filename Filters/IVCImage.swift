@@ -5,8 +5,8 @@ struct IVCImage: View {
     
     var body: some View {
         image
-            .resizable()
-            .aspectRatio(contentMode: .fit)        
+//            .resizable()
+//            .aspectRatio(contentMode: .fit)
     }
 }
 

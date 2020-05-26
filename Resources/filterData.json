@@ -6,15 +6,53 @@
         "imageName": "ALN",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "ALN"
-    }, {
+        "category": "ALN",
+        "safetyConsiderations": [
+            "• Tilting – up to 35-45% (Pellerin JVIR 2013/CVIR 2008)",
+            "• Penetration – up to 27% (Pellerin JVIR 2013)",
+            "• Recurrent VTE – up to 24% at 18 months (Mismetti Chest 2007)"
+        ],
+        "optimalRetrievalWindow": [
+            "• Successful retrieval rates up to 100% with mean dwell times of 25.6 months (Pellerin JVIR 2013)"
+        ],
+        "treatmentOptions": [
+            "• Routine retrieval with 9Fr ALN removal kit or standard snare via IJ approach",
+            "• Complex retrieval may be considered if filter tip is embedded"
+        ],
+        "specifications": [
+            "• FDA approval: 2008",
+            "• Material: Stainless Steel",
+            "• Insertion Route: Fem, Jug",
+            "• Sheath size: 7Fr",
+            "• Max IVC diameter: 30mm",
+            "• MRI Compatibility: MRI conditional"
+        ]
+    }
+    
+    , {
         "name": "Bard Denali",
         "short": "Denali",
         "id": 2,
         "imageName": "BardDenali",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Bard Eclipse",
         "short": "Eclipse",
@@ -22,7 +60,23 @@
         "imageName": "BardEclipse",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Bard G2",
         "short": "G2",
@@ -30,7 +84,23 @@
         "imageName": "BardG2",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Bard G2X",
         "short": "G2X",
@@ -38,7 +108,23 @@
         "imageName": "BardG2X",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Bard Meridian",
         "short": "Meridian",
@@ -46,7 +132,23 @@
         "imageName": "BardMeridian",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Bard Recovery",
         "short": "Recovery",
@@ -54,7 +156,23 @@
         "imageName": "BardRecovery",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Bard Simon Nitinol",
         "short": "Simon Nitinol",
@@ -62,7 +180,23 @@
         "imageName": "BardSimonNitinol",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Bard"
+        "category": "Bard",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "B. Braun Bena Tech LGM",
         "short": "Bena Tech LGM",
@@ -70,7 +204,23 @@
         "imageName": "BBraunVenaTechLGM",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "B. Braun"
+        "category": "B. Braun",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "B. Braun Vena Tech LP",
         "short": "Vena Tech LP",
@@ -78,7 +228,23 @@
         "imageName": "BBraunVenaTechLP",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "B. Braun"
+        "category": "B. Braun",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Boston Scientific 12 Fr Stainless Greenfield",
         "short": "12 Fr Stainless Greenfield",
@@ -86,7 +252,23 @@
         "imageName": "BostonScientific12FrStainlessGreenfield",
         "isFavorite": false,
         "isFeatured": false,
-        "category": "Boston Scientific"
+        "category": "Boston Scientific",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Boston Scientific 24 Fr Stainless Greenfield",
         "short": "24 Fr Stainless Greenfield",
@@ -94,7 +276,23 @@
         "imageName": "BostonScientific24FrStainlessGreenfield",
         "isFavorite": false,
         "isFeatured": false,
-        "category": "Boston Scientific"
+        "category": "Boston Scientific",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Boston Scientific Titanium Greenfield",
         "short": "Titanium Greenfield",
@@ -102,7 +300,23 @@
         "imageName": "BostonScientificTitaniumGreenfield",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Boston Scientific"
+        "category": "Boston Scientific",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Cook Bird's Nest",
         "short": "Bird's Nest",
@@ -110,7 +324,23 @@
         "imageName": "CookBirdsNest",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Cook"
+        "category": "Cook",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Cook Celect",
         "short": "Celect",
@@ -118,7 +348,23 @@
         "imageName": "CookCelect",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Cook"
+        "category": "Cook",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Cook Gunther Tulip",
         "short": "Gunther Tulip",
@@ -126,7 +372,23 @@
         "imageName": "CookGuntherTulip",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Cook"
+        "category": "Cook",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Cordis Optease",
         "short": "Optease",
@@ -134,7 +396,23 @@
         "imageName": "CordisOptease",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Cordis"
+        "category": "Cordis",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Cordis Trapease",
         "short": "Trapease",
@@ -142,7 +420,23 @@
         "imageName": "CordisTrapease",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Cordis"
+        "category": "Cordis",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Rafael Safe Flo",
         "short": "Safe Flo",
@@ -150,7 +444,23 @@
         "imageName": "RafaelSafeFlo",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Rafael"
+        "category": "Rafael",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }, {
         "name": "Rex Medical Option",
         "short": "Medical Option",
@@ -158,7 +468,23 @@
         "imageName": "RexMedicalOption",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Rex"
+        "category": "Rex",
+        "safetyConsiderations": [
+            "a",
+            "b"
+        ],
+        "optimalRetrievalWindow": [
+            "c",
+            "d"
+        ],
+        "treatmentOptions": [
+            "e",
+            "f"
+        ],
+        "specifications": [
+            "g",
+            "h"
+        ]
     }, {
         "name": "Volcano Crux",
         "short": "Crux",
@@ -166,6 +492,22 @@
         "imageName": "VolcanoCrux",
         "isFavorite": false,
         "isFeatured": true,
-        "category": "Volcano"
+        "category": "Volcano",
+        "safetyConsiderations": [
+            "",
+            ""
+        ],
+        "optimalRetrievalWindow": [
+            "",
+            ""
+        ],
+        "treatmentOptions": [
+            "",
+            ""
+        ],
+        "specifications": [
+            "",
+            ""
+        ]
     }
 ]

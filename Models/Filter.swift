@@ -8,6 +8,10 @@ struct Filter: Hashable, Codable, Identifiable {
     fileprivate var imageName: String
     var isFavorite: Bool
     var isFeatured: Bool
+    var safetyConsiderations: [String]
+    var optimalRetrievalWindow: [String]
+    var treatmentOptions: [String]
+    var specifications: [String]
     
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
@@ -20,8 +24,10 @@ struct Filter: Hashable, Codable, Identifiable {
         case rafael = "Rafael"
         case rex = "Rex"
         case volcano = "Volcano"
+    
     }
 }
+
 
 extension Filter {
     var image: Image {
