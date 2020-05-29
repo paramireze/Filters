@@ -15,14 +15,24 @@ struct FilterAlertRow: View {
         }
     }
 }
+struct IndicationsRow: View {
+    var body: some View {
+        NavigationLink(destination: IndicationsContraindications()) {
+            Text("Indications/Contraindications")
+        }
+    }
+}
 
 struct GeneralList: View {
     var body: some View {
         NavigationView {
             List {
                 FilterAlertRow()
+                IndicationsRow()
             }
+            .navigationBarTitle(Text("General"))
         }
+        
     }
 }
 
