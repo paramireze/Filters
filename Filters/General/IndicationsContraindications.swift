@@ -1,11 +1,3 @@
-//
-//  IndicationsContraindications.swift
-//  Filters
-//
-//  Created by Ramirez Paul E on 5/28/20.
-//  Copyright © 2020 Ramirez Paul E. All rights reserved.
-//
-
 import SwiftUI
 
 struct IndicationsContraindications: View {
