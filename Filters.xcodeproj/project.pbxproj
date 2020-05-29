@@ -10,6 +10,7 @@
 		1014A03724809B2D000EC4EB /* IndicationsContraindications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014A03624809B2D000EC4EB /* IndicationsContraindications.swift */; };
 		1014A03D248135FD000EC4EB /* FilterRemoval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014A03C248135FD000EC4EB /* FilterRemoval.swift */; };
 		1014A03F24813925000EC4EB /* FilterComplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014A03E24813925000EC4EB /* FilterComplications.swift */; };
+		1014A0412481519F000EC4EB /* FilterPenetration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014A0402481519F000EC4EB /* FilterPenetration.swift */; };
 		1041A11B246713AC0046681D /* FilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11A246713AC0046681D /* FilterRow.swift */; };
 		1041A11D246713C20046681D /* FilterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11C246713C20046681D /* FilterList.swift */; };
 		1041A120246715E40046681D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11F246715E40046681D /* Filter.swift */; };
@@ -67,6 +68,7 @@
 		1014A03624809B2D000EC4EB /* IndicationsContraindications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicationsContraindications.swift; sourceTree = "<group>"; };
 		1014A03C248135FD000EC4EB /* FilterRemoval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRemoval.swift; sourceTree = "<group>"; };
 		1014A03E24813925000EC4EB /* FilterComplications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterComplications.swift; sourceTree = "<group>"; };
+		1014A0402481519F000EC4EB /* FilterPenetration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPenetration.swift; sourceTree = "<group>"; };
 		1041A11A246713AC0046681D /* FilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRow.swift; sourceTree = "<group>"; };
 		1041A11C246713C20046681D /* FilterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterList.swift; sourceTree = "<group>"; };
 		1041A11F246715E40046681D /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				1014A03624809B2D000EC4EB /* IndicationsContraindications.swift */,
 				1014A03C248135FD000EC4EB /* FilterRemoval.swift */,
 				1014A03E24813925000EC4EB /* FilterComplications.swift */,
+				1014A0402481519F000EC4EB /* FilterPenetration.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				1041A120246715E40046681D /* Filter.swift in Sources */,
 				1041A11B246713AC0046681D /* FilterRow.swift in Sources */,
 				1041A16724689ED10046681D /* FilterAlert.swift in Sources */,
+				1014A0412481519F000EC4EB /* FilterPenetration.swift in Sources */,
 				1041A172246A1F2F0046681D /* UserData.swift in Sources */,
 				1014A03724809B2D000EC4EB /* IndicationsContraindications.swift in Sources */,
 				1052EE98245A62390025DE2F /* AppDelegate.swift in Sources */,

@@ -39,6 +39,14 @@ struct FilterComplicationFractureRow: View {
     }
 }
 
+struct FilterComplicationPenetrationRow: View {
+    var body: some View {
+        NavigationLink(destination: FilterPenetration()) {
+            Text("IVC Filter Complications: Penetration and Perforation")
+        }
+    }
+}
+
 struct GeneralList: View {
     var body: some View {
         NavigationView {
@@ -47,6 +55,7 @@ struct GeneralList: View {
                 IndicationsRow()
                 FilterRemovalRow()
                 FilterComplicationFractureRow()
+                FilterComplicationPenetrationRow()
             }
             .navigationBarTitle(Text("General"))
         }
