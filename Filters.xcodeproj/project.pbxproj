@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1014A03724809B2D000EC4EB /* IndicationsContraindications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014A03624809B2D000EC4EB /* IndicationsContraindications.swift */; };
+		1014A03D248135FD000EC4EB /* FilterRemoval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1014A03C248135FD000EC4EB /* FilterRemoval.swift */; };
 		1041A11B246713AC0046681D /* FilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11A246713AC0046681D /* FilterRow.swift */; };
 		1041A11D246713C20046681D /* FilterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11C246713C20046681D /* FilterList.swift */; };
 		1041A120246715E40046681D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041A11F246715E40046681D /* Filter.swift */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		1014A03624809B2D000EC4EB /* IndicationsContraindications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicationsContraindications.swift; sourceTree = "<group>"; };
+		1014A03C248135FD000EC4EB /* FilterRemoval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRemoval.swift; sourceTree = "<group>"; };
 		1041A11A246713AC0046681D /* FilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRow.swift; sourceTree = "<group>"; };
 		1041A11C246713C20046681D /* FilterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterList.swift; sourceTree = "<group>"; };
 		1041A11F246715E40046681D /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				1041A16624689ED10046681D /* FilterAlert.swift */,
 				1041A1682468A1280046681D /* GeneralList.swift */,
 				1014A03624809B2D000EC4EB /* IndicationsContraindications.swift */,
+				1014A03C248135FD000EC4EB /* FilterRemoval.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				1041A16E246A1A720046681D /* About.swift in Sources */,
 				1041A170246A1ACE0046681D /* InfoList.swift in Sources */,
 				10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */,
+				1014A03D248135FD000EC4EB /* FilterRemoval.swift in Sources */,
 				106F3EA7246F0B48005D854F /* CategoryRow.swift in Sources */,
 				1052EE9A245A62390025DE2F /* SceneDelegate.swift in Sources */,
 				1041A163246861E90046681D /* ContentView.swift in Sources */,

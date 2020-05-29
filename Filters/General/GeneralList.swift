@@ -23,12 +23,21 @@ struct IndicationsRow: View {
     }
 }
 
+struct FilterRemovalRow: View {
+    var body: some View {
+        NavigationLink(destination: FilterRemoval()) {
+            Text("IVC Filter Removal")
+        }
+    }
+}
+
 struct GeneralList: View {
     var body: some View {
         NavigationView {
             List {
                 FilterAlertRow()
                 IndicationsRow()
+                FilterRemovalRow()
             }
             .navigationBarTitle(Text("General"))
         }
