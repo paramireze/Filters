@@ -31,6 +31,14 @@ struct FilterRemovalRow: View {
     }
 }
 
+struct FilterComplicationFractureRow: View {
+    var body: some View {
+        NavigationLink(destination: FilterComplicationFracture()) {
+            Text("IVC Filter Complications: Fracture")
+        }
+    }
+}
+
 struct GeneralList: View {
     var body: some View {
         NavigationView {
@@ -38,10 +46,10 @@ struct GeneralList: View {
                 FilterAlertRow()
                 IndicationsRow()
                 FilterRemovalRow()
+                FilterComplicationFractureRow()
             }
             .navigationBarTitle(Text("General"))
         }
-        
     }
 }
 
