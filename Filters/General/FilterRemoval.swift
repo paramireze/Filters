@@ -20,7 +20,6 @@ struct FilterRemoval: View {
                 Text("IVC filters are associated with potential complications, and the risk of these complications appears to increase with time")
             }
             Spacer()
-            
         }
     .padding()
     }

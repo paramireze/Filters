@@ -18,8 +18,17 @@ struct FilterAlert: View {
 
 struct FilterAlertContent: View {
     var body: some View {
-        VStack {
-          Text("The FDA is concerned that these retrievable IVC filters, intended for short-term placement, are not always removed once a patient's risk for PE subsides. Known long term risks associated with IVC filters include but are not limited to lower limb deep vein thrombosis (DVT), filter fracture, filter migration, filter embolization and IVC perforation")
+        VStack(alignment: .leading) {
+            
+            Text("The FDA is concerned that these retrievable IVC filters, intended for short-term placement, are not always removed once a patient's risk for PE subsides. Known long term risks associated with IVC filters include but are not limited to lower limb deep vein thrombosis (DVT), filter fracture, filter migration, filter embolization and IVC perforation")
+            NavigationLink(destination: ReferenceList(references: Array(arrayLiteral: 0), barTitle: "Filter Alert Reference")) {
+                Text("References: (1)")
+            }
+                
+                 
+                
+            
+            
             Spacer()
             
             Text("FDA recommends that implanting physicians and clinicians responsible for the ongoing care of patients with retrievable IVC filters consider removing the filter as soon as protection from PE is no longer needed.")

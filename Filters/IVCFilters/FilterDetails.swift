@@ -11,8 +11,7 @@ struct FilterDetails: View {
     
     var body: some View {
         ScrollView {
-            
-            
+        
             VStack {
                 IVCImage(image: filter.image)
                     
@@ -35,7 +34,6 @@ struct FilterDetails: View {
                                     .foregroundColor(Color.gray)
                             }
                         }
-                                        
                     }
                     Text("Safety Considerations")
                     .font(.title)
@@ -43,8 +41,6 @@ struct FilterDetails: View {
                     ForEach(filter.safetyConsiderations, id: \.self) { string in
                         Text(string)
                     }
-
-
                     
                     Text("Optimal Retrieval Window")
                     .font(.title)

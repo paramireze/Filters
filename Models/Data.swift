@@ -2,6 +2,7 @@ import UIKit
 import SwiftUI
 
 let filterData: [Filter] = load("filterData.json")
+let referenceData: [Reference] = load("references.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

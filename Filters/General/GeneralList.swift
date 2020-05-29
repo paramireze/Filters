@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct FilterAlertRow: View {
+    
     var body: some View {
         NavigationLink(destination: FilterAlert()) {
             Text("FDA IVC filter alert")
@@ -12,6 +13,7 @@ struct IndicationsRow: View {
         NavigationLink(destination: IndicationsContraindications()) {
             Text("Indications/Contraindications")
         }
+        .navigationBarTitle(Text("IVC Filters"))
     }
 }
 

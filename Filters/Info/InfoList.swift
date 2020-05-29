@@ -15,8 +15,8 @@ struct InfoList: View {
                 AboutRow()
                 ReferenceRow()
             }
+            .navigationBarTitle(Text("Info"))
         }
-        
     }
 }
 
@@ -30,7 +30,7 @@ struct AboutRow: View {
 
 struct ReferenceRow: View {
     var body: some View {
-        NavigationLink(destination: References()) {
+        NavigationLink(destination: ReferenceList(references: Array(0...referenceData.count - 1), barTitle: "All References")) {
             Text("References")
         }
     }
