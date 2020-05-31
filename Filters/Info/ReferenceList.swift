@@ -6,8 +6,8 @@ struct ReferenceList: View {
     
     var body: some View {
         List {
-            ForEach(references, id: \.self ) { asdf in
-                ReferenceDetails(reference: referenceData[asdf])
+            ForEach(references, id: \.self ) { id in
+                ReferenceDetails(reference: referenceData[id - 1])
             }
         Spacer()
         }
@@ -19,6 +19,6 @@ struct ReferenceList: View {
 struct ReferenceList_Previews: PreviewProvider {
     static var previews: some View {
     
-        ReferenceList(references: Array(0...referenceData.count - 1), barTitle: "Reference List")
+        ReferenceList(references: Array(1...referenceData.count), barTitle: "Reference List")
     }
 }
