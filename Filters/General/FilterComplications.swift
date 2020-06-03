@@ -2,25 +2,39 @@ import SwiftUI
 
 struct FilterComplicationFracture: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Image("Complications1")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-            
-            Text("Indications for Filter Removal")
-              .font(.title)
-              .foregroundColor(.blue)
-              Divider()
-            HStack(spacing: 20) {
-                Text("\u{2022}")
-                Text("FDA: Consider removing the IVC filter as soon as protection from PE is no longer needed")
+        ScrollView {
+                
+            VStack(alignment: .leading) {
+                Image("Complications1")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                
+                Text("A G2 Filter with multiple fractured components.")
+                .font(.subheadline)
+                Divider()
+                
+                Text("IVC Filter Complications: Fracture")
+                .font(.title)
+                .foregroundColor(.blue)
+                Divider()
+                
+                HStack(spacing: 20) {
+                    Text("\u{2022}")
+                    Text("Separation of any component of the filter due to structural failure")
+                }
+                
+                HStack(spacing: 20) {
+                    Text("\u{2022}")
+                    Text("Accounts up to 22% of complications reported in the MAUDE database (7)")
+                }
+                Divider()
+                
+                NavigationLink(destination: ReferenceList(references: Array(arrayLiteral: 7), barTitle: "Fracture References")) {
+                       Text("Reference: (7)")
+                }
             }
-            HStack(spacing: 20) {
-                Text("\u{2022}")
-                Text("SIR: Consider removing once the risk of clinically significant PE is reduced to an acceptable level and is estimated to be less than the risk of leaving the filter in situ")
-            }
+        .padding()
         }
-    .padding()
     }
 }
 

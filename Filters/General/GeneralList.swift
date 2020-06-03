@@ -28,7 +28,7 @@ struct FilterRemovalRow: View {
 struct FilterComplicationFractureRow: View {
     var body: some View {
         NavigationLink(destination: FilterComplicationFracture()) {
-            Text("IVC Filter Complications: Fracture")
+            Text("Complications: Fracture")
         }
     }
 }
@@ -36,7 +36,23 @@ struct FilterComplicationFractureRow: View {
 struct FilterComplicationPenetrationRow: View {
     var body: some View {
         NavigationLink(destination: FilterPenetration()) {
-            Text("IVC Filter Complications: Penetration and Perforation")
+            Text("Complications: Penetration and Perforation")
+        }
+    }
+}
+
+struct FilterComplicationMigrationEmbolizationRow: View {
+    var body: some View {
+        NavigationLink(destination: FilterMigrationEmbolization()) {
+            Text("Complications: Migration and Embolization")
+        }
+    }
+}
+
+struct FilterComplicationIVCThrombisisRow: View {
+    var body: some View {
+        NavigationLink(destination: FilterIVCThrombosis()) {
+            Text("Complications: IVC Thrombosis and Stenosis")
         }
     }
 }
@@ -50,6 +66,8 @@ struct GeneralList: View {
                 FilterRemovalRow()
                 FilterComplicationFractureRow()
                 FilterComplicationPenetrationRow()
+                FilterComplicationMigrationEmbolizationRow()
+                FilterComplicationIVCThrombisisRow()
             }
             .navigationBarTitle(Text("General"))
         }

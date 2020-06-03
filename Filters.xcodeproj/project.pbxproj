@@ -65,6 +65,8 @@
 		106F3EA5246F0746005D854F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3EA4246F0746005D854F /* Home.swift */; };
 		106F3EA7246F0B48005D854F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106F3EA6246F0B48005D854F /* CategoryRow.swift */; };
 		10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A52CF8245F13FD0071E84D /* IVCImage.swift */; };
+		10EB9184248837720036AF0E /* FilterMigrationEmbolization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB9183248837720036AF0E /* FilterMigrationEmbolization.swift */; };
+		10EB9186248845830036AF0E /* FilterIVCThrombosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB9185248845830036AF0E /* FilterIVCThrombosis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +130,8 @@
 		106F3EA4246F0746005D854F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		106F3EA6246F0B48005D854F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		10A52CF8245F13FD0071E84D /* IVCImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVCImage.swift; sourceTree = "<group>"; };
+		10EB9183248837720036AF0E /* FilterMigrationEmbolization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMigrationEmbolization.swift; sourceTree = "<group>"; };
+		10EB9185248845830036AF0E /* FilterIVCThrombosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterIVCThrombosis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,8 @@
 				1014A03C248135FD000EC4EB /* FilterRemoval.swift */,
 				1014A03E24813925000EC4EB /* FilterComplications.swift */,
 				1014A0402481519F000EC4EB /* FilterPenetration.swift */,
+				10EB9183248837720036AF0E /* FilterMigrationEmbolization.swift */,
+				10EB9185248845830036AF0E /* FilterIVCThrombosis.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -383,6 +389,7 @@
 				1052EE98245A62390025DE2F /* AppDelegate.swift in Sources */,
 				1041A16E246A1A720046681D /* About.swift in Sources */,
 				1041A170246A1ACE0046681D /* InfoList.swift in Sources */,
+				10EB9186248845830036AF0E /* FilterIVCThrombosis.swift in Sources */,
 				10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */,
 				1014A03D248135FD000EC4EB /* FilterRemoval.swift in Sources */,
 				106F3EA7246F0B48005D854F /* CategoryRow.swift in Sources */,
@@ -393,6 +400,7 @@
 				1052EE9C245A62390025DE2F /* FilterDetails.swift in Sources */,
 				1041A16C246A1A5B0046681D /* ReferencesDetails.swift in Sources */,
 				1014A04524817AC0000EC4EB /* Reference.swift in Sources */,
+				10EB9184248837720036AF0E /* FilterMigrationEmbolization.swift in Sources */,
 				1041A11D246713C20046681D /* FilterList.swift in Sources */,
 				106F3EA5246F0746005D854F /* Home.swift in Sources */,
 				1041A122246717870046681D /* Data.swift in Sources */,
