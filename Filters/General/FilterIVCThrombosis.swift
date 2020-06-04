@@ -21,6 +21,7 @@ struct FilterIVCThrombosis: View {
                     Text("\u{2022}")
                     Text("Increased risk with prolonged implantation and absence of therapeutic anticoagulation (8)(9).")
                 }
+                Divider()
                 NavigationLink(destination: ReferenceList(references: Array(arrayLiteral: 8, 9, 10), barTitle: "IVC Thrombosis References")) {
                        Text("Reference: (8)(9)(10)")
                 }

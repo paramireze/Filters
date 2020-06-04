@@ -29,6 +29,7 @@ struct FilterMigrationEmbolization: View {
                     Text("\u{2022}")
                     Text("Accounts for 22% of complications reported in the MAUDE database (7)")
                 }
+                Divider()
                 NavigationLink(destination: ReferenceList(references: Array(arrayLiteral: 7, 10), barTitle: "Filter Migration References")) {
                        Text("Reference: (7)(10)")
                 }

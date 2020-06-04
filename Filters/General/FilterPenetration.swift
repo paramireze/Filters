@@ -21,6 +21,7 @@ struct FilterPenetration: View {
                     Text("\u{2022}")
                     Text("Accounts for 20% of complications reported in the MAUDE database (7).")
                 }
+                Divider()
                 NavigationLink(destination: ReferenceList(references: Array(arrayLiteral: 7), barTitle: "Penetration and Perforation Reference")) {
                        Text("Reference: (7)")
                 }

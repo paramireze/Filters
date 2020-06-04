@@ -67,6 +67,7 @@
 		10A52CF9245F13FD0071E84D /* IVCImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A52CF8245F13FD0071E84D /* IVCImage.swift */; };
 		10EB9184248837720036AF0E /* FilterMigrationEmbolization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB9183248837720036AF0E /* FilterMigrationEmbolization.swift */; };
 		10EB9186248845830036AF0E /* FilterIVCThrombosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB9185248845830036AF0E /* FilterIVCThrombosis.swift */; };
+		10FAA56D2489B46000B711C4 /* FilterVTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FAA56C2489B46000B711C4 /* FilterVTE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +133,7 @@
 		10A52CF8245F13FD0071E84D /* IVCImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVCImage.swift; sourceTree = "<group>"; };
 		10EB9183248837720036AF0E /* FilterMigrationEmbolization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMigrationEmbolization.swift; sourceTree = "<group>"; };
 		10EB9185248845830036AF0E /* FilterIVCThrombosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterIVCThrombosis.swift; sourceTree = "<group>"; };
+		10FAA56C2489B46000B711C4 /* FilterVTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVTE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				1014A0402481519F000EC4EB /* FilterPenetration.swift */,
 				10EB9183248837720036AF0E /* FilterMigrationEmbolization.swift */,
 				10EB9185248845830036AF0E /* FilterIVCThrombosis.swift */,
+				10FAA56C2489B46000B711C4 /* FilterVTE.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				1014A04724819A13000EC4EB /* ReferenceList.swift in Sources */,
 				1052EE9C245A62390025DE2F /* FilterDetails.swift in Sources */,
 				1041A16C246A1A5B0046681D /* ReferencesDetails.swift in Sources */,
+				10FAA56D2489B46000B711C4 /* FilterVTE.swift in Sources */,
 				1014A04524817AC0000EC4EB /* Reference.swift in Sources */,
 				10EB9184248837720036AF0E /* FilterMigrationEmbolization.swift in Sources */,
 				1041A11D246713C20046681D /* FilterList.swift in Sources */,
