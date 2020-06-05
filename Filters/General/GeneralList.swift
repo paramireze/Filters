@@ -57,6 +57,22 @@ struct FilterComplicationIVCThrombisisRow: View {
     }
 }
 
+struct FilterComplicationVTERow: View {
+    var body: some View {
+        NavigationLink(destination: FilterVTE()) {
+            Text("Complications: VTE after implantation")
+        }
+    }
+}
+
+struct FilterComplicationPTSRow: View {
+    var body: some View {
+        NavigationLink(destination: FilterPTS()) {
+            Text("Complications: Post-Thrombotic Syndrome")
+        }
+    }
+}
+
 struct GeneralList: View {
     var body: some View {
         NavigationView {
@@ -68,6 +84,8 @@ struct GeneralList: View {
                 FilterComplicationPenetrationRow()
                 FilterComplicationMigrationEmbolizationRow()
                 FilterComplicationIVCThrombisisRow()
+                FilterComplicationVTERow()
+                FilterComplicationPTSRow()
             }
             .navigationBarTitle(Text("General"))
         }
