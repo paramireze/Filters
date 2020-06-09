@@ -7,7 +7,7 @@ struct ReferenceList: View {
     var body: some View {
         List {
             ForEach(references, id: \.self ) { id in
-                ReferenceDetails(reference: referenceData[id - 1])
+                ReferenceDetails(reference: referenceData[id])
             }
         Spacer()
         }
