@@ -35,6 +35,10 @@ struct FilterDetails: View {
                             }
                         }
                     }
+                    if !filter.subHeading.isEmpty {
+                        Text(filter.subHeading)
+                            .font(.subheadline)
+                    }
                     FilterDetailsSafetyConsiderations(filter: filter)
                     FilterDetailsOptimalRetrieval(filter: filter)
                     FilterDetailsTreatmentOptions(filter: filter)

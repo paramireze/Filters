@@ -3,6 +3,7 @@ import SwiftUI
 struct Filter: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
+    var subHeading: String
     var short: String
     var category: Category
     fileprivate var imageName: String

@@ -1,6 +1,7 @@
 [
     {
         "name": "ALN Filter",
+        "subHeading" : "",
         "short": "ALN Filter",
         "id": 1,
         "imageName": "ALN",
@@ -33,6 +34,7 @@
     
     , {
         "name": "Bard Denali",
+        "subHeading" : "",
         "short": "Denali",
         "id": 2,
         "imageName": "BardDenali",
@@ -62,6 +64,7 @@
         ]
     }, {
         "name": "Bard Eclipse",
+        "subHeading" : "",
         "short": "Eclipse",
         "id": 3,
         "imageName": "BardEclipse",
@@ -94,6 +97,7 @@
         ]
     }, {
         "name": "Bard G2",
+        "subHeading" : "",
         "short": "G2",
         "id": 4,
         "imageName": "BardG2",
@@ -126,6 +130,7 @@
         ]
     }, {
         "name": "Bard G2X",
+        "subHeading" : "",
         "short": "G2X",
         "id": 5,
         "imageName": "BardG2X",
@@ -158,6 +163,7 @@
         ]
     }, {
         "name": "Bard Meridian",
+        "subHeading" : "",
         "short": "Meridian",
         "id": 6,
         "imageName": "BardMeridian",
@@ -188,6 +194,7 @@
         ]
     }, {
         "name": "Bard Recovery",
+        "subHeading" : "(Discontinued)",
         "short": "Recovery",
         "id": 7,
         "imageName": "BardRecovery",
@@ -215,6 +222,7 @@
         ]
     }, {
         "name": "Bard Simon Nitinol",
+        "subHeading" : "",
         "short": "Simon Nitinol",
         "id": 8,
         "imageName": "BardSimonNitinol",
@@ -242,6 +250,7 @@
         ]
     }, {
         "name": "B. Braun Bena Tech LGM",
+        "subHeading" : "",
         "short": "Bena Tech LGM",
         "id": 9,
         "imageName": "BBraunVenaTechLGM",
@@ -269,6 +278,7 @@
         ]
     }, {
         "name": "B. Braun Vena Tech LP",
+        "subHeading" : "",
         "short": "Vena Tech LP",
         "id": 10,
         "imageName": "BBraunVenaTechLP",
@@ -296,6 +306,7 @@
         ]
     }, {
         "name": "Boston Scientific 12 Fr Stainless Greenfield",
+        "subHeading" : "",
         "short": "12 Fr Stainless Greenfield",
         "id": 11,
         "imageName": "BostonScientific12FrStainlessGreenfield",
@@ -323,6 +334,7 @@
         ]
     }, {
         "name": "Boston Scientific 24 Fr Stainless Greenfield",
+        "subHeading" : "",
         "short": "24 Fr Stainless Greenfield",
         "id": 12,
         "imageName": "BostonScientific24FrStainlessGreenfield",
@@ -350,6 +362,7 @@
         ]
     }, {
         "name": "Boston Scientific Titanium Greenfield",
+        "subHeading" : "",
         "short": "Titanium Greenfield",
         "id": 13,
         "imageName": "BostonScientificTitaniumGreenfield",
@@ -377,6 +390,7 @@
         ]
     }, {
         "name": "Cook Bird's Nest",
+        "subHeading" : "",
         "short": "Bird's Nest",
         "id": 14,
         "imageName": "CookBirdsNest",
@@ -404,6 +418,7 @@
         ]
     }, {
         "name": "Cook Celect",
+        "subHeading" : "",
         "short": "Celect",
         "id": 15,
         "imageName": "CookCelect",
@@ -431,6 +446,7 @@
         ]
     }, {
         "name": "Cook Gunther Tulip",
+        "subHeading" : "",
         "short": "Gunther Tulip",
         "id": 16,
         "imageName": "CookGuntherTulip",
@@ -458,6 +474,7 @@
         ]
     }, {
         "name": "Cordis Optease",
+        "subHeading" : "",
         "short": "Optease",
         "id": 17,
         "imageName": "CordisOptease",
@@ -485,6 +502,7 @@
         ]
     }, {
         "name": "Cordis Trapease",
+        "subHeading" : "",
         "short": "Trapease",
         "id": 18,
         "imageName": "CordisTrapease",
@@ -512,6 +530,7 @@
         ]
     }, {
         "name": "Rafael Safe Flo",
+        "subHeading" : "",
         "short": "Safe Flo",
         "id": 19,
         "imageName": "RafaelSafeFlo",
@@ -539,6 +558,7 @@
         ]
     }, {
         "name": "Rex Medical Option",
+        "subHeading" : "",
         "short": "Medical Option",
         "id": 20,
         "imageName": "RexMedicalOption",
@@ -566,6 +586,7 @@
         ]
     }, {
         "name": "Volcano Crux",
+        "subHeading" : "",
         "short": "Crux",
         "id": 21,
         "imageName": "VolcanoCrux",
