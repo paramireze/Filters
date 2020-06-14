@@ -80,10 +80,10 @@ struct FilterDetailsOptimalRetrieval: View {
               ForEach(filter.optimalRetrievalWindow, id: \.self) { string in
                   Text(string)
               }
-              Spacer()
+              
             if (!filter.optimalRetrievalWindowReferences.isEmpty) {
                 NavigationLink(destination: ReferenceList(references: filter.optimalRetrievalWindowReferences, barTitle: "Optimal Retrieval References")) {
-                       Text("References")
+                       Text("Reference(s)")
                 }
             }
         }
@@ -99,6 +99,11 @@ struct FilterDetailsTreatmentOptions: View {
             ForEach(filter.treatmentOptions, id: \.self) { string in
                 Text(string)
             }
+            if (!filter.treatmentOptionReferences.isEmpty) {
+               NavigationLink(destination: ReferenceList(references: filter.treatmentOptionReferences, barTitle: "Treatment Option References")) {
+                      Text("Reference(s)")
+               }
+           }
         }
     }
 }
@@ -112,6 +117,11 @@ struct FilterDetailsSpecifications: View {
             ForEach(filter.specifications, id: \.self) { string in
                 Text(string)
             }
+//            if (!filter.specificationReferences.isEmpty) {
+//                NavigationLink(destination: ReferenceList(references: filter.specificationReferences, barTitle: "Specifications References")) {
+//                       Text("Reference(s)")
+//                }
+//            }
         }
     }
 }

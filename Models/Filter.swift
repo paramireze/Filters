@@ -13,6 +13,7 @@ struct Filter: Hashable, Codable, Identifiable {
     var optimalRetrievalWindow: [String]
     var optimalRetrievalWindowReferences: [Int]
     var treatmentOptions: [String]
+    var treatmentOptionReferences: [Int]
     var specifications: [String]
     
     enum Category: String, CaseIterable, Codable, Hashable {

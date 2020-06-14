@@ -28,8 +28,7 @@
             "• Sheath size: 7Fr",
             "• Max IVC diameter: 30mm",
             "• MRI Compatibility: MRI conditional"
-        ],
-        "specificationReferences": []
+        ]
     }
     
     , {
@@ -41,24 +40,25 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "Limited data/follow up: Filter penetration rate of 2.3% at retrieval (28)"
+            "• Limited data/follow up: Filter penetration rate of 2.3% at retrieval (28)"
         ],
         "safetyConsiderationReferences": [28],
         "optimalRetrievalWindow": [
-            "Limited data/follow up: 98% success rate with mean indwell time of 136 days, max 454 days"
+            "• Limited data/follow up: 98% success rate with mean indwell time of 136 days, max 454 days"
         ],
-        "optimalRetrievalWindowReferences": [2,3],
+        "optimalRetrievalWindowReferences": [28],
         "treatmentOptions": [
-            "Routine retrieval with dual 9 &amp; 11Fr ID sheaths and intravascular loop snare via IJ approach.",
-            "Complex retrieval may be considered if filter becomes embedded."
+            "• Routine retrieval with dual 9 & 11Fr ID sheaths and intravascular loop snare via IJ approach.",
+            "• Complex retrieval may be considered if filter becomes embedded."
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
-            "FDA approval: 2013",
-            "Material: Nitinol",
-            "Route: Fem, Jug/Subcl",
-            "Sheath size: 8.4Fr ID/10.4Fr OD (J/S), 8.4Fr ID/10.4Fr OD (Fem)",
-            "Max IVC diameter: 28mm",
-            "MRI Compatibility: MRI conditional"
+            "• FDA approval: 2013",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl",
+            "• Sheath size: 8.4Fr ID/10.4Fr OD (J/S), 8.4Fr ID/10.4Fr OD (Fem)",
+            "• Max IVC diameter: 28mm",
+            "• MRI Compatibility: MRI conditional"
         ]
     }, {
         "name": "Bard Eclipse",
@@ -69,22 +69,28 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "Device fracture - 5-12% (Nicholson Arch Int Med 2010, Vijay JVIR 2012) with estimated prevalence of 38% at 5 years (19)(21)(23)(24)",
-            "Tilting: 18% (25)(60)"
+            "• Device fracture - 5-12% (Nicholson Arch Int Med 2010, Vijay JVIR 2012) with estimated prevalence of 38% at 5 years (19)(21)(23)(24)",
+            "• Tilting: 18% (25)(60)",
+            "• Penetration: 26% (25)",
+            "• Migration: 12-25% (25)(22)"
         ],
-        "safetyConsiderationReferences": [19, 21, 23, 24, 25, 60],
+        "safetyConsiderationReferences": [19, 21, 22, 23, 24, 25, 60],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• Based on G2 data: Successful retrieval rate of 95% within 300 days - mean dwell time of 144 days (25)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [25],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 10Fr ID Recovery cone via IJ approach",
+            "• Complex retrieval may be considered if filter tip is embedded"
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
+            "• FDA approval: 2008",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl",
+            "• Sheath size: 10Fr ID/12Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
+            "• Max IVC diameter: 28mm",
+            "• MRI Compatibility: MRI conditional"
         ]
     }, {
         "name": "Bard G2",
@@ -95,22 +101,28 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Device fracture: 1.2-12% with estimated prevalence of 38% at 5 years (19)(21)(23)",
+            "• Tilting: 18% (25)(60)",
+            "• Penetration: 26% (25)",
+            "• Migration: 12-25% (25)(22)"
         ],
         "safetyConsiderationReferences": [19, 21, 23, 24, 25, 60],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• Successful retrieval rate of 95% within 300 days - mean dwell time of 144 days (25)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [25],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 10Fr ID Recovery cone via IJ approach",
+            "• Complex retrieval may be considered if filter tip is embedded"
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
+            "• FDA approval: 2005/08",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl",
+            "• Sheath size: 10Fr ID/12 Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
+            "• Max IVC diameter: 28mm",
+            "• MRI Copatibility: MRI conditional"
         ]
     }, {
         "name": "Bard G2X",
@@ -121,22 +133,28 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Device fracture: 1.2 - 12% with estimated prevalence of 38% at 5 years (18)(21)(23)(24)",
+            "• Tilting: 18% (25)(60)",
+            "• Penetration: 26% (25)",
+            "• Migration: 12-25% (25)(22)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [18, 21, 23, 24, 25, 60],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• Based on G2 data: successful retrieval rate of 95% within 300 days - mean dwell time of 144 days (25)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [25],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 10Fr ID Recovery cone via IJ approach",
+            "• Complex retrieval may be considered if filter tip is embedded"
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
+            "• FDA approval: 2008",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl",
+            "• Sheath size: 10Fr ID/12Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
+            "• Max IVC diameter: 28mm",
+            "• MRI Compatibility: MRI conditional"
         ]
     }, {
         "name": "Bard Meridian",
@@ -147,22 +165,26 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Reports of filter fracture and embolization have been reported in the literature (26)(27)",
+            "• Cases of incomplete expansion secondary to crossed limbs have been reported (27)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [26, 27],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• Successful retrieval rate of 95% within 300 days - mean dwell time of 144 days (25)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [25],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 10Fr ID sheath and intravascular loop snare via IJ approach",
+            "• Complex retrieval may be considered in the setting of complications"
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
+            "FDA approval: 2011",
+            "Material: Nitinol",
+            "Route: Fem, Jug/Subcl",
+            "Sheath size: 10Fr ID/12Fr OD (J/S), 8Fr ID/10Fr OD (Fem)",
+            "Max IVC diameter: 28mm",
+            "MRI Compatibility: MRI conditional"
         ]
     }, {
         "name": "Bard Recovery",
@@ -186,6 +208,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -212,6 +235,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -238,6 +262,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -264,6 +289,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -290,6 +316,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -316,6 +343,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -342,6 +370,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -368,6 +397,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -394,6 +424,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -420,6 +451,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -446,6 +478,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -472,6 +505,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -498,6 +532,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
@@ -524,6 +559,7 @@
             "e",
             "f"
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "g",
             "h"
@@ -550,6 +586,7 @@
             "",
             ""
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "",
             ""
