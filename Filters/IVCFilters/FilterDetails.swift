@@ -35,35 +35,82 @@ struct FilterDetails: View {
                             }
                         }
                     }
-                    Text("Safety Considerations")
-                    .font(.title)
-
-                    ForEach(filter.safetyConsiderations, id: \.self) { string in
-                        Text(string)
-                    }
-                    
-                    Text("Optimal Retrieval Window")
-                    .font(.title)
-                    ForEach(filter.optimalRetrievalWindow, id: \.self) { string in
-                        Text(string)
-                    }
-                    Spacer()
-                    
-                    Text("Treatment Options")
-                    .font(.title)
-                    ForEach(filter.treatmentOptions, id: \.self) { string in
-                        Text(string)
-                    }
-    
-                    Text("Specifications")
-                    .font(.title)
-                    ForEach(filter.specifications, id: \.self) { string in
-                        Text(string)
-                    }
+                    FilterDetailsSafetyConsiderations(filter: filter)
+                    FilterDetailsOptimalRetrieval(filter: filter)
+                    FilterDetailsTreatmentOptions(filter: filter)
+                    FilterDetailsSpecifications(filter: filter)
 
                 }
                 .padding()
                 Spacer()
+            }
+        }
+    }
+}
+
+
+struct FilterDetailsSafetyConsiderations: View {
+    var filter: Filter
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Safety Considerations")
+            .font(.title)
+
+            ForEach(filter.safetyConsiderations, id: \.self) { string in
+                Text(string)
+            }
+            
+            if (!filter.safetyConsiderationReferences.isEmpty) {
+                NavigationLink(destination: ReferenceList(references: filter.safetyConsiderationReferences, barTitle: "Safety Consideration References")) {
+                       Text("Reference(s)")
+                }
+            }
+            
+        }
+    }
+}
+
+
+struct FilterDetailsOptimalRetrieval: View {
+    var filter: Filter
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Optimal Retrieval Window")
+              .font(.title)
+              ForEach(filter.optimalRetrievalWindow, id: \.self) { string in
+                  Text(string)
+              }
+              Spacer()
+            if (!filter.optimalRetrievalWindowReferences.isEmpty) {
+                NavigationLink(destination: ReferenceList(references: filter.optimalRetrievalWindowReferences, barTitle: "Optimal Retrieval References")) {
+                       Text("References")
+                }
+            }
+        }
+    }
+}
+
+struct FilterDetailsTreatmentOptions: View {
+    var filter: Filter
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Treatment Options")
+            .font(.title)
+            ForEach(filter.treatmentOptions, id: \.self) { string in
+                Text(string)
+            }
+        }
+    }
+}
+
+struct FilterDetailsSpecifications: View {
+    var filter: Filter
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Specifications")
+            .font(.title)
+            ForEach(filter.specifications, id: \.self) { string in
+                Text(string)
             }
         }
     }

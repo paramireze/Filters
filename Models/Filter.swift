@@ -9,7 +9,9 @@ struct Filter: Hashable, Codable, Identifiable {
     var isFavorite: Bool
     var isFeatured: Bool
     var safetyConsiderations: [String]
+    var safetyConsiderationReferences: [Int]
     var optimalRetrievalWindow: [String]
+    var optimalRetrievalWindowReferences: [Int]
     var treatmentOptions: [String]
     var specifications: [String]
     

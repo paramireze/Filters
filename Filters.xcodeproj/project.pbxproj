@@ -152,9 +152,9 @@
 		1041A11E246715770046681D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1041A171246A1F2F0046681D /* UserData.swift */,
 				1041A11F246715E40046681D /* Filter.swift */,
 				1041A121246717870046681D /* Data.swift */,
-				1041A171246A1F2F0046681D /* UserData.swift */,
 				1014A04424817AC0000EC4EB /* Reference.swift */,
 			);
 			path = Models;

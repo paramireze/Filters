@@ -8,17 +8,19 @@
         "isFeatured": true,
         "category": "ALN",
         "safetyConsiderations": [
-            "• Tilting – up to 35-45% (Pellerin JVIR 2013/CVIR 2008)",
-            "• Penetration – up to 27% (Pellerin JVIR 2013)",
-            "• Recurrent VTE – up to 24% at 18 months (Mismetti Chest 2007)"
+            "• Tilting – 5-6.8% (16)(17)(18)",
+            "• Penetration – up to 24% at 18 mo. (18)"
         ],
+        "safetyConsiderationReferences": [16, 17, 18],
         "optimalRetrievalWindow": [
             "• Successful retrieval rates up to 100% with mean dwell times of 25.6 months (Pellerin JVIR 2013)"
         ],
+        "optimalRetrievalWindowReferences": [16],
         "treatmentOptions": [
             "• Routine retrieval with 9Fr ALN removal kit or standard snare via IJ approach",
             "• Complex retrieval may be considered if filter tip is embedded"
         ],
+        "treatmentOptionReferences": [],
         "specifications": [
             "• FDA approval: 2008",
             "• Material: Stainless Steel",
@@ -26,7 +28,8 @@
             "• Sheath size: 7Fr",
             "• Max IVC diameter: 30mm",
             "• MRI Compatibility: MRI conditional"
-        ]
+        ],
+        "specificationReferences": []
     }
     
     , {
@@ -38,20 +41,24 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "Limited data/follow up: Filter penetration rate of 2.3% at retrieval (28)"
         ],
+        "safetyConsiderationReferences": [28],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "Limited data/follow up: 98% success rate with mean indwell time of 136 days, max 454 days"
         ],
+        "optimalRetrievalWindowReferences": [2,3],
         "treatmentOptions": [
-            "",
-            ""
+            "Routine retrieval with dual 9 &amp; 11Fr ID sheaths and intravascular loop snare via IJ approach.",
+            "Complex retrieval may be considered if filter becomes embedded."
         ],
         "specifications": [
-            "",
-            ""
+            "FDA approval: 2013",
+            "Material: Nitinol",
+            "Route: Fem, Jug/Subcl",
+            "Sheath size: 8.4Fr ID/10.4Fr OD (J/S), 8.4Fr ID/10.4Fr OD (Fem)",
+            "Max IVC diameter: 28mm",
+            "MRI Compatibility: MRI conditional"
         ]
     }, {
         "name": "Bard Eclipse",
@@ -62,13 +69,15 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "Device fracture - 5-12% (Nicholson Arch Int Med 2010, Vijay JVIR 2012) with estimated prevalence of 38% at 5 years (19)(21)(23)(24)",
+            "Tilting: 18% (25)(60)"
         ],
+        "safetyConsiderationReferences": [19, 21, 23, 24, 25, 60],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -89,10 +98,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [19, 21, 23, 24, 25, 60],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -113,10 +124,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -137,10 +150,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -161,10 +176,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -185,10 +202,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -209,10 +228,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -233,10 +254,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -257,10 +280,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -281,10 +306,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -305,10 +332,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -329,10 +358,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -353,10 +384,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -377,10 +410,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -401,10 +436,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -425,10 +462,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -449,10 +488,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
@@ -473,10 +514,12 @@
             "a",
             "b"
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "c",
             "d"
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "e",
             "f"
@@ -497,10 +540,12 @@
             "",
             ""
         ],
+        "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
             "",
             ""
         ],
+        "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
             "",
             ""
