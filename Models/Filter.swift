@@ -16,6 +16,7 @@ struct Filter: Hashable, Codable, Identifiable {
     var treatmentOptions: [String]
     var treatmentOptionReferences: [Int]
     var specifications: [String]
+    var specificationReferences: [Int]
     
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"

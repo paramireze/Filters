@@ -14,7 +14,7 @@
         ],
         "safetyConsiderationReferences": [16, 17, 18],
         "optimalRetrievalWindow": [
-            "• Successful retrieval rates up to 100% with mean dwell times of 25.6 months (Pellerin JVIR 2013)"
+            "• Successful retrieval rates up to 100% with mean dwell times of 25.6 months (16)"
         ],
         "optimalRetrievalWindowReferences": [16],
         "treatmentOptions": [
@@ -29,7 +29,8 @@
             "• Sheath size: 7Fr",
             "• Max IVC diameter: 30mm",
             "• MRI Compatibility: MRI conditional"
-        ]
+        ],
+        "specificationReferences":[]
     }
     
     , {
@@ -46,7 +47,7 @@
         ],
         "safetyConsiderationReferences": [28],
         "optimalRetrievalWindow": [
-            "• Limited data/follow up: 98% success rate with mean indwell time of 136 days, max 454 days"
+            "• Limited data/follow up: 98% success rate with mean indwell time of 136 days, max 454 days (28)"
         ],
         "optimalRetrievalWindowReferences": [28],
         "treatmentOptions": [
@@ -61,7 +62,8 @@
             "• Sheath size: 8.4Fr ID/10.4Fr OD (J/S), 8.4Fr ID/10.4Fr OD (Fem)",
             "• Max IVC diameter: 28mm",
             "• MRI Compatibility: MRI conditional"
-        ]
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Bard Eclipse",
         "subHeading" : "",
@@ -94,7 +96,8 @@
             "• Sheath size: 10Fr ID/12Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
             "• Max IVC diameter: 28mm",
             "• MRI Compatibility: MRI conditional"
-        ]
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Bard G2",
         "subHeading" : "",
@@ -127,7 +130,8 @@
             "• Sheath size: 10Fr ID/12 Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
             "• Max IVC diameter: 28mm",
             "• MRI Copatibility: MRI conditional"
-        ]
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Bard G2X",
         "subHeading" : "",
@@ -160,7 +164,8 @@
             "• Sheath size: 10Fr ID/12Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
             "• Max IVC diameter: 28mm",
             "• MRI Compatibility: MRI conditional"
-        ]
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Bard Meridian",
         "subHeading" : "",
@@ -185,13 +190,14 @@
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "FDA approval: 2011",
-            "Material: Nitinol",
-            "Route: Fem, Jug/Subcl",
-            "Sheath size: 10Fr ID/12Fr OD (J/S), 8Fr ID/10Fr OD (Fem)",
-            "Max IVC diameter: 28mm",
-            "MRI Compatibility: MRI conditional"
-        ]
+            "• FDA approval: 2011",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl",
+            "• Sheath size: 10Fr ID/12Fr OD (J/S), 8Fr ID/10Fr OD (Fem)",
+            "• Max IVC diameter: 28mm",
+            "• MRI Compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Bard Recovery",
         "subHeading" : "(Discontinued)",
@@ -202,24 +208,31 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Device fracture/embolization: 5.5 - 25% with an estimated incidence of 39.5% at 65.7 months (19)(20)(21)(71)",
+            "• Tilting: 2.3 - 15% (22)(23)",
+            "• Penetration: 27-100% (71)(20)",
+            "• Migration: 0 - 10% (20)(22)",
+            "• Recurrent VTE: 18% DVT (71)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [19, 20, 21, 22, 71],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• Successful retrieval rate of 94 - 100% with mean dwell times of 228 - 254 days (22)(23)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [22, 23],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 10Fr ID Recovery cone via IJ approach",
+            "• Complex retrieval may be considered if filter tip is embedded"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2003, discontinued 2005",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl",
+            "• Sheath size: 10Fr ID/12Fr OD (J/S), 7Fr ID/9Fr OD (Fem)",
+            "• Max IVC diameter: 28mm",
+            "• MRI Compatibility: MRI safe"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Bard Simon Nitinol",
         "subHeading" : "",
@@ -230,24 +243,29 @@
         "isFeatured": true,
         "category": "Bard",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Fracture: 10 - 16% (30)(29)",
+            "• Penetration: 25 - 95% (29)(30)",
+            "• IVC Occlusion: 3.5 - 50% (30)(61)(31)",
+            "• Recurrent VTE: 17 - 30% (30)(29)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [29, 30, 31, 32, 60],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal; however retrieval has been reported using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if removal is desired"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 1990",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug/Subcl, Antecub",
+            "• Sheath size: 7Fr ID/9Fr OD",
+            "• Max IVC diameter: 28mm",
+            "• MRI Compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "B. Braun Bena Tech LGM",
         "subHeading" : "",
@@ -258,24 +276,26 @@
         "isFeatured": true,
         "category": "B. Braun",
         "safetyConsiderations": [
-            "",
-            ""
+            "• High rates of IVC thrombosis/stenosis and occlusion with an occlusion rate of 3.7%/year with IVC patency rates down to 67% at 9 years follow up (33)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [33],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal; however retrieval has been reported using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if removal is desired"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 1989",
+            "• Material: Phynox",
+            "• Route: Fem, Jug",
+            "• Sheath size: 10Fr ID/13Fr OD",
+            "• Max IVC diameter: 28mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "B. Braun Vena Tech LP",
         "subHeading" : "",
@@ -286,24 +306,27 @@
         "isFeatured": true,
         "category": "B. Braun",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Recurrent DVT: 14% (34)",
+            "• Incomplete opening on deployment leading to migration/embolization in some cases (35)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [34, 35],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal; however retrieval has been reported using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if removal is desired"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2001",
+            "• Material: Phynox",
+            "• Route: Fem, Jug",
+            "• Sheath size: 7Fr ID/9Fr OD",
+            "• Max IVC diameter: 28mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Boston Scientific 12 Fr Stainless Greenfield",
         "subHeading" : "",
@@ -314,24 +337,29 @@
         "isFeatured": false,
         "category": "Boston Scientific",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Tilting: 9.9 - 55% (37)(45)",
+            "• Leg asymmetry: 5.3 - 37% (46)(37)(45)",
+            "• Recurrent VTE: 12.5% (47)",
+            "• IVC thrombosis: 5 - 12%  (46)(45)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [37, 45, 46, 47],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal; however retrieval has been reported using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if removal is desired"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 1995",
+            "• Material: 316L Stainless Steel",
+            "• Route: Fem, Jug",
+            "• Sheath size: 12Fr ID/15Fr OD",
+            "• Max IVC diameter: 28mm",
+            "• MRI compatibility: MRI Conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Boston Scientific 24 Fr Stainless Greenfield",
         "subHeading" : "",
@@ -342,24 +370,29 @@
         "isFeatured": false,
         "category": "Boston Scientific",
         "safetyConsiderations": [
-            "",
-            ""
+            "• No longer available",
+            "• Tilting: 7 - 12% (62)(63)",
+            "• Insertion or placement issues: 4 - 9% (64)(65)",
+            "• Insertion site DVT: 41% (66)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [62, 63, 64, 65, 66],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal; however retrieval may be possible using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if removal is desired"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 1973",
+            "• Material: 316L Stainless Steel",
+            "• Route: Fem, R Jug usually via cut-down, altough percutaneous placement was reported (44)",
+            "• Sheath size: 24Fr ID/29.5Fr OD",
+            "• Max IVC diameter: 28mm",
+            "• MRI compatibility: MRI Conditional"
+        ],
+        "specificationReferences":[44]
     }, {
         "name": "Boston Scientific Titanium Greenfield",
         "subHeading" : "",
@@ -370,24 +403,31 @@
         "isFeatured": true,
         "category": "Boston Scientific",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Tilting: 8.3 - 41% (37)(38)(67)",
+            "• Penetration: 13 - 50% prior to hook modification, 1% with MH design (40)(68)",
+            "• Migration: 7.5 - 15% (67)(69)",
+            "• Recurrent VTE: PE 3.2%, DVT 15% (47)",
+            "• IVC thrombosis: 3.5 - 20% (41)(38)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [37, 38, 41, 47, 67, 69],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal, however retrieval has been reported using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if removal is desired"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 1989",
+            "• Material: Beta II Titanium",
+            "• Route: Fem, Jug",
+            "• Sheath size: 12Fr ID/14.3Fr OD",
+            "• Max IVC diameter: 28mm",
+            "• MRI compatibility: MRI safe"
+            
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Cook Bird's Nest",
         "subHeading" : "",
@@ -398,24 +438,28 @@
         "isFeatured": true,
         "category": "Cook",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Perforation: up to 85% (53)",
+            "• Wire prolapse: up to 70% (53)",
+            "• IVC occlusion: up to 4.7% (53)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [53],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• If removal is indicated, complex percutaneous or surgical retrieval may be considered"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 1989",
+            "• Material: Stainless Steel",
+            "• Route: Fem, Jug",
+            "• Sheath size: 12Fr ID/14Fr OD (J), 12Fr ID/14Fr OD (Fem) - Placed through 14Fr sheath",
+            "• Max IVC diameter: 48mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Cook Celect",
         "subHeading" : "",
@@ -426,24 +470,28 @@
         "isFeatured": true,
         "category": "Cook",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Caval perforation - 49 - 93% with mean follow up of 152 and 277 days (49)(50)",
+            "• Incidence of perforation increases with longer dwell time (50)"
         ],
         "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "50 weeks - reported success rate of 100% within this window (52)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [52],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 11Fr retrieval set via IJ approach",
+            "• Complex retrieval may be considered if filter is embedded"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2007/08",
+            "• Material: Conichrome",
+            "• Route: Fem, Jug",
+            "• Sheath size: 7Fr ID/9Fr OD (J), 8.5Fr ID/10Fr OD (Fem)",
+            "• Max IVC diameter: 30mm",
+            "• MRI Compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Cook Gunther Tulip",
         "subHeading" : "",
@@ -454,24 +502,30 @@
         "isFeatured": true,
         "category": "Cook",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Caval perforation: 43 - 78% with mean follow up of 247 and 437 days (49)(50)",
+            "• Incidence of perforation increases with longer dwell time (50)",
+            "• Migration: 12.5% (70)",
+            "• Recurrent VTE: 17.1% (3.3% PE, 14.4% DVT)(70)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [49, 50, 70],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• 4 - 12 weeks - reported success rates of 99% at 4 weeks and 94% at 12 weeks (51)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [51],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval with 9 - 11FR sheaths via IJ approach",
+            "• Complex retrieval may be considered if filter is embedded"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2000/03",
+            "• Material: Conichrome",
+            "• Route: Fem, Jug",
+            "• Sheath Size: 7Fr ID/9Fr OD (J), 8.5Fr ID/10Fr OD (Fem)",
+            "• Max IVC diameter: 30mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Cordis Optease",
         "subHeading" : "",
@@ -482,24 +536,30 @@
         "isFeatured": true,
         "category": "Cordis",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Symptomatic caval thrombosis in up to 1.4% (54)",
+            "• Increasingly difficult retrieval with prolonged dwell times (55)(56)",
+            "• Fracture rates up to 50% have been reported with the Trapease device at mean follow up of 50 months (57)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [54, 55, 56, 57],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• Optimal dwell time of 12 days",
+            "• Within 60 days (55)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [55],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval via femoral approach",
+            "• Complex retrieval may be considered if filter is embedded"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2002/04",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug, Antecub",
+            "• Sheath Size: 6Fr ID/8Fr OD",
+            "• Max IVC diameter: 30mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Cordis Trapease",
         "subHeading" : "",
@@ -510,24 +570,27 @@
         "isFeatured": true,
         "category": "Cordis",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Fracture: up to 50% at mean follow up of 50 months (57)",
+            "• Symptomatic IVC/Iliac vein thrombosis in up to 6.9% (58)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [57, 58],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This is a permanent device not FDA-cleared for removal; however retrieval has been reported using complex techniques"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Complex retrieval may be considered if filter is embedded"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2000",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug, Antecub",
+            "• Sheath size: 6Fr ID/8Fr OD",
+            "• Max IVC diameter: 30mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Rafael Safe Flo",
         "subHeading" : "",
@@ -538,24 +601,27 @@
         "isFeatured": true,
         "category": "Rafael",
         "safetyConsiderations": [
-            "",
-            ""
+            "• Not available in the U.S.",
+            "• Limited data available"
         ],
         "safetyConsiderationReferences": [],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• This was approved as a permanent device in the US and an optional device in Europe"
         ],
         "optimalRetrievalWindowReferences": [],
         "treatmentOptions": [
-            "",
-            ""
+            "• Routine retrieval via same site as placement"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA approval: 2009 permanent use only",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug",
+            "• Sheath size: 6Fr ID/8Fr OD",
+            "• Max IVC diameter: 16-19mm, 19-22mm, 22-25mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Rex Medical Option",
         "subHeading" : "",
@@ -566,24 +632,30 @@
         "isFeatured": true,
         "category": "Rex",
         "safetyConsiderations": [
-            "a",
-            "b"
+            "• Caval occlusion: 4% (59)",
+            "• Post implantation DVT: 18% (59)",
+            "• Recurrent PE: 8% (59)",
+            "• Tilting (>15 degrees) at time of retrieval: 7.7% (59)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [59],
         "optimalRetrievalWindow": [
-            "c",
-            "d"
+            "• 92.3% retrieval rate at a mean dwell time of 67.1 days (range, 1-175 d) (59)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [59],
         "treatmentOptions": [
-            "e",
-            "f"
+            "• Routine retrieval via IJ approach",
+            "• Complex retrieval may be considered if the filter is embedded"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "g",
-            "h"
-        ]
+            "• FDA approval: 2009",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug",
+            "• Sheath size: 5Fr ID/6Fr OD",
+            "• Max IVC diameter: 32mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }, {
         "name": "Volcano Crux",
         "subHeading" : "",
@@ -594,23 +666,28 @@
         "isFeatured": true,
         "category": "Volcano",
         "safetyConsiderations": [
-            "",
-            ""
+            "Limited data is available",
+            "9.6% reported rate of recurrent VTE and 1.6% reported rate of technical failure during deployment in the RETRIEVE trail (48)"
         ],
-        "safetyConsiderationReferences": [],
+        "safetyConsiderationReferences": [48],
         "optimalRetrievalWindow": [
-            "",
-            ""
+            "• 98.1% retrieval success rate with a mean retrieval time of 84.6 days (48)"
         ],
-        "optimalRetrievalWindowReferences": [],
+        "optimalRetrievalWindowReferences": [48],
         "treatmentOptions": [
-            "",
-            ""
+            "• Bidirectional deployment and retrieval",
+            "• Routine retrieval via a jugular or femoral approach with a two-sheath coaxial system (6F inner sheath, 10F outer sheath) with a snare device is recommended, but not required",
+            "• Limited data is available"
         ],
         "treatmentOptionReferences": [],
         "specifications": [
-            "",
-            ""
-        ]
+            "• FDA Approval: 2012",
+            "• Material: Nitinol",
+            "• Route: Fem, Jug",
+            "• Sheath size: 9 Fr",
+            "• Max IVC diameter: 28mm",
+            "• MRI compatibility: MRI conditional"
+        ],
+        "specificationReferences":[]
     }
 ]

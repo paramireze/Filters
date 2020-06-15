@@ -72,7 +72,7 @@ struct AuthorViewTwo: View {
             .padding(.bottom)
             Text("Contributions: Project Advisor, Co-author, mobile app conception and design, filter database creation.")
             .font(.caption)
-            Divider()
+            .padding(.bottom)
         }
     }
 }
@@ -84,11 +84,10 @@ struct DisclosuresView: View {
             Text("Disclosures")
             .font(.title)
             .foregroundColor(.blue)
-            
+            Divider()
             Text("None of the authors have any relevant disclosures.")
                 .font(.caption)
                  
-            Divider()
  
         }
     }
@@ -100,10 +99,10 @@ struct FundingView: View {
             Text("Funding")
             .font(.title)
             .foregroundColor(.blue)
-            
+            Divider()
              Text("This project was supported by the Etta Kalin Moskowitz Research Fund and the Stanford University Department of Radiology.")
                  .font(.caption)
-            Divider()
+            .padding(.bottom)
  
         }
     }
@@ -115,7 +114,7 @@ struct AcknowledgeView: View {
             Text("Acknowledgments")
             .font(.title)
             .foregroundColor(.blue)
-            
+            Divider()
             Text("ClariPACS for assistance with CT and fluoroscopic image processing.")
                 .padding(.bottom)
             Text("Special Thanks to Barry Uchida from the Dotter Interventional Institute for donating the VenaTech LGM and 12-Fr Greenfield IVC filters.")
@@ -123,8 +122,7 @@ struct AcknowledgeView: View {
             Text("Special Thanks to Aaron Feldman for providing digital photos of the SafeFlo IVC filter.")
             .padding(.bottom)
             Text("Special Thanks to Boston Scientific for providing digital photos of the 24-Fr Greenfield IVC filter.")
-            Divider()
- 
+            .padding(.bottom)
         }
         .font(.caption)
     }
@@ -136,10 +134,11 @@ struct DisclaimerView: View {
             Text("Disclaimer")
             .font(.title)
             .foregroundColor(.blue)
+            Divider()
             
              Text("All information contained herein is provided for educational purposes only. This information should not be used for the diagnosis or treatment of any health problem or disease. This information is not intended to replace clinical judgment or guide individual patient care in any manner. All information provided is subject to change without notice.")
                  .font(.caption)
-            Divider()
+                .padding(.bottom)
  
         }
     }
@@ -151,10 +150,11 @@ struct CopyrightView: View {
             Text("Copyright")
             .font(.title)
             .foregroundColor(.blue)
+            Divider()
             
              Text("All materials contained on this website are subject to the ownership rights of the authors. The user is authorized to use the content herein for learning purposes. No other permission is granted to you to print, copy, reproduce, distribute, transmit, upload, download, store, display in public, alter, or modify the content contained herein.")
                  .font(.caption)
-            Divider()
+        
  
         }
     }

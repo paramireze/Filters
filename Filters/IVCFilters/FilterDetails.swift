@@ -66,7 +66,7 @@ struct FilterDetailsSafetyConsiderations: View {
             
             if (!filter.safetyConsiderationReferences.isEmpty) {
                 NavigationLink(destination: ReferenceList(references: filter.safetyConsiderationReferences, barTitle: "Safety Consideration References")) {
-                       Text("Reference(s)")
+                       Text("References")
                 }
             }
             
@@ -87,7 +87,7 @@ struct FilterDetailsOptimalRetrieval: View {
               
             if (!filter.optimalRetrievalWindowReferences.isEmpty) {
                 NavigationLink(destination: ReferenceList(references: filter.optimalRetrievalWindowReferences, barTitle: "Optimal Retrieval References")) {
-                       Text("Reference(s)")
+                       Text("References")
                 }
             }
         }
@@ -105,7 +105,7 @@ struct FilterDetailsTreatmentOptions: View {
             }
             if (!filter.treatmentOptionReferences.isEmpty) {
                NavigationLink(destination: ReferenceList(references: filter.treatmentOptionReferences, barTitle: "Treatment Option References")) {
-                      Text("Reference(s)")
+                      Text("References")
                }
            }
         }
@@ -121,11 +121,11 @@ struct FilterDetailsSpecifications: View {
             ForEach(filter.specifications, id: \.self) { string in
                 Text(string)
             }
-//            if (!filter.specificationReferences.isEmpty) {
-//                NavigationLink(destination: ReferenceList(references: filter.specificationReferences, barTitle: "Specifications References")) {
-//                       Text("Reference(s)")
-//                }
-//            }
+            if (!filter.specificationReferences.isEmpty) {
+                NavigationLink(destination: ReferenceList(references: filter.specificationReferences, barTitle: "Specifications References")) {
+                       Text("References")
+                }
+            }
         }
     }
 }
