@@ -16,7 +16,7 @@ struct ReferenceDetails: View {
 struct References_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(referenceData, id: \.self) { asdf in
-            ReferenceDetails(reference: referenceData[1])
+            ReferenceDetails(reference: referenceData[0])
         }
     }
 }
